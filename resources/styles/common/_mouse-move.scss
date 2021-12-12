@@ -8,4 +8,8 @@ body {
       display: inline-block;
     }
   }
+
+  &:not(.mousemove) {
+    cursor: none;
+  }
 }
