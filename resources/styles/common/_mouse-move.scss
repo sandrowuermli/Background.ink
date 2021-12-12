@@ -1,0 +1,11 @@
+body {
+  button#fullscreen {
+    display: none;
+  }
+
+  &.mousemove {
+    button#fullscreen {
+      display: inline-block;
+    }
+  }
+}
