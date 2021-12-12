@@ -1,3 +1,5 @@
+/dist
+
 # Logs
 *.log
 
@@ -6,8 +8,8 @@
 .env.*
 !.env.example
 
-# Satispress
-auth.json
+# Node
+node_modules
 
 # Composer
 /vendor
