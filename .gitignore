@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Satispress
+auth.json
+
+# Composer
+/vendor
+
+# Misc
+.DS_Store
+.idea
+/log/*
+!/log/.gitkeep
